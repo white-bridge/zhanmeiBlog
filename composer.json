@@ -10,7 +10,8 @@
         "graham-campbell/markdown": "^10.2",
         "laravel/framework": "5.6.*",
         "laravel/tinker": "^1.0",
-        "unisharp/laravel-filemanager": "^1.9"
+        "unisharp/laravel-filemanager": "^1.9",
+        "php-amqplib/php-amqplib": ">=2.6.1"
     },
     "require-dev": {
         "filp/whoops": "^2.0",
