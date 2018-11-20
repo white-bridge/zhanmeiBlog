@@ -6,6 +6,14 @@
  * @package  Laravel
  * @author   Taylor Otwell <taylor@laravel.com>
  */
+
+session_start();
+$count = isset($_SESSION['count']) ? $_SESSION['count'] : 1;
+
+echo $count;
+
+$_SESSION['count'] = ++$count;
+
 define('LARAVEL_START', microtime(true));
 
 /*
